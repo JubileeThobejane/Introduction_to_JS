@@ -1,0 +1,26 @@
+let num = 4936;
+
+let ones = num % 10 ;
+
+num = (num - ones) / 10 ;
+
+console.log(`The ones place is ${ones}.`);
+
+let tens = num % 10 ;
+
+num = (num - tens) / 10 ;
+
+console.log(`The tens place is ${tens}.`);
+
+let hundreds = num % 10 ;
+
+let thousands = (num - hundreds) / 10;
+
+console.log(`The hundreds place is ${hundreds}.`);
+
+//let thousands = num;
+
+console.log(`The thousands place is ${thousands}.`);
+
+
+

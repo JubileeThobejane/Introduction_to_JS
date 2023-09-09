@@ -1,0 +1,10 @@
+let pet = {
+  astra :'dog',
+  buttorscotch : 'cat',
+  pudding :'cat',
+  neptune :'fish',
+  lizard : 'darwin',
+
+};
+
+console.log(pet);

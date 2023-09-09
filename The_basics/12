@@ -1,0 +1,3 @@
+/*When JS evalutes if 2 strings are the same it compares the first character
+and with the 1st character of the value to the left of the operation so it will evaluate to true because 
+'1' is smaller than '9' . 

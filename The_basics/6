@@ -1,0 +1,5 @@
+
+console.log(`The value of 5 + 10 is ${ Number('5') + 10}.`);
+//or
+
+console.log(`The value of 5 + 10 is ${parseInt('5',10)+ 10}.`);

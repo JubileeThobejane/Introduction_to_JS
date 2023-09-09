@@ -1,0 +1,4 @@
+console.log(Number('5')+10);
+//or
+
+console.log(parseInt('5', 10) + 10);

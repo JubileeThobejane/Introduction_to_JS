@@ -1,0 +1,2 @@
+/*The statement will evaluate to false because the '===' will check if the values on
+either side of the operator are the same type(which they are) and if they are the exact same characters which they aren't .*/

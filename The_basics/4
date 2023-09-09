@@ -1,0 +1,2 @@
+/* When an addition operator is applied on a string and a number , implicit type coercion occurs 
+and the results is a string of the two values concatenated */
