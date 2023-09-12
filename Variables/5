@@ -1,0 +1,9 @@
+//The program will return bar because the console.log() statment is in the global scope 
+//so it will return the value of foo that is in the global scope
+
+let foo = 'bar';
+{
+  let foo = 'qux';
+}
+
+console.log(foo);

@@ -1,0 +1,8 @@
+// The program will not return an error because the FOO constants are declare in 
+//different scopes , it will log the constant in the global scope
+const FOO = 'bar';
+{
+  const FOO = 'qux';
+}
+
+console.log(FOO);

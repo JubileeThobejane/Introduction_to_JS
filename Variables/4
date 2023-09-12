@@ -1,0 +1,12 @@
+//The program will succesfully run the first 4 lines with no issues but when it 
+//encounters the reassignment of the const variable it will return an error
+//because in JS you cannot reassign a const var after defining it
+const NAME = 'Victor';
+console.log('Good Morning, ' + NAME);
+console.log('Good Afternoon, ' + NAME);
+console.log('Good Evening, ' + NAME);
+
+NAME = 'Joe';
+console.log('Good Morning, ' + NAME);
+console.log('Good Afternoon, ' + NAME);
+console.log('Good Evening, ' + NAME);

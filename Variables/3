@@ -1,0 +1,8 @@
+//The program will return and error because foo is limited to a block scope and the
+//console.log command is in the global scope
+
+{
+  let foo = 'bar';
+}
+
+console.log(foo);
