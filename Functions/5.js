@@ -1,0 +1,1 @@
+//The piece of code returns 'Yipeee!!!!'

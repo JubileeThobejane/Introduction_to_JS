@@ -1,0 +1,1 @@
+// It will not log anything as it returns before the console.log statement
